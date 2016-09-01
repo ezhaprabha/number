@@ -1,11 +1,10 @@
-
 public class ArmstrongFinder {	
  public static void main(String[] args) {
+   Scanner s=new Scanner(System.in);
+	        Integer starting_number =s.nextInt();
 
-	        int starting_number = 1;
-
-	        int ending_number = 99999;
-	        for (int i = starting_number; i <= ending_number; i++) {
+	        Integer ending_number =s.nextInt();
+	        for (Integer i = starting_number; i <= ending_number; i++) {
 
 	            if (isArmstrong(i)) {
 
