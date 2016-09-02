@@ -3,7 +3,7 @@ class prime
 public static void main()
 {
 int i,j,k;
-for(i=101;i<10000l;i++) //here you can give your own range
+for(i=101;i<1000l;i++)
 {
          k=0;
          for(j=2;j<i;j++)
